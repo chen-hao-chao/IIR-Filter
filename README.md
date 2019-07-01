@@ -1,6 +1,6 @@
 # IIR-Filter
 
-I implement a IIR filter using verilog. The input includes clock, reset, data_in and data_done, while the output includes address of the data, read enable, write enable, data and finish. I use three states to process this program: IDEL, COUNT and WRITE.
+I implement an IIR filter using verilog. The input includes clock, reset, data_in and data_done, while the output includes address of the data, read enable, write enable, data and finish. I use three states to process this program: IDEL, COUNT and WRITE.
 
 ![state_graph](https://user-images.githubusercontent.com/41135423/42927995-b1c742d4-8b68-11e8-8d46-f0c293f3fc8e.jpg)
 
